@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trama Sur - Tejiendo conversaciones desde el sur y el territorio. Podcast, textil y cultura desde Chile.">
+    <title>Trama Sur — Tejiendo conversaciones desde el sur</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Organic background patterns -->
+    <div class="organic-bg" id="organicBg"></div>
+
+    <!-- Navigation -->
+    <nav id="mainNav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo-trama-sur.png" alt="Trama Sur Logo" class="nav-logo-img">
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Inicio</a></li>
+                <li><a href="#podcast" class="nav-link">Podcast</a></li>
+                <li><a href="#creators" class="nav-link">Fundadoras</a></li>
+                <li><a href="#gallery" class="nav-link">Galería</a></li>
+                <li><a href="#about" class="nav-link">Trama Sur</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#community" class="nav-link">Comunidad</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="logo-container">
+                <img src="logo-trama-sur.png" alt="Trama Sur - Logo" class="hero-logo">
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">Tejiendo conversaciones</span>
+                <span class="title-line">desde el sur y el territorio</span>
+            </h1>
+            <div class="mapuche-divider"></div>
+            <p class="hero-description">
+                Textil, memoria y comunidad desde el sur de Chile
+            </p>
+            <div class="hero-cta">
+                <a href="#podcast" class="btn btn-primary">Escuchar Podcast</a>
+                <a href="#about" class="btn btn-secondary">Conocer más</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>↓</span>
+        </div>
+    </section>
+
+    <!-- Podcast Section -->
+    <section id="podcast" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Podcast</h2>
+                <div class="mapuche-pattern-small"></div>
+                <p class="section-intro">
+                    Conversaciones que entrelazan textil, memoria y territorio. Cada episodio es un hilo 
+                    que conecta saberes, voces y experiencias desde el sur de Chile.
+                </p>
+            </div>
+            
+            <!-- Featured Episode -->
+            <div class="podcast-featured">
+                <div class="featured-badge">✦ EPISODIO DESTACADO</div>
+                <div class="featured-content">
+                    <h3 class="featured-title">Hilos que tejen comunidad</h3>
+                    <p class="featured-description">
+                        En este episodio conversamos sobre las tradiciones textiles del sur de Chile, 
+                        el valor del trabajo manual y cómo el tejido conecta generaciones y territorios.
+                    </p>
+                    
+                    <!-- Audio Player -->
+                    <div class="audio-player-container">
+                        <audio controls class="audio-player">
+                            <source src="#" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+
+                    <div class="featured-meta">
+                        <span class="meta-item">🎧 Duración: 42 min</span>
+                        <span class="meta-item">📅 Enero 2026</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Episodes List -->
+            <div class="episodes-header">
+                <h3>Episodios recientes</h3>
+            </div>
+
+            <div class="episodes-grid">
+                <article class="episode-card" data-episode="3">
+                    <div class="episode-number">03</div>
+                    <div class="episode-content">
+                        <h4 class="episode-title">Tejer en colectivo</h4>
+                        <p class="episode-description">
+                            Una conversación sobre las ruedas de tejido, los encuentros comunitarios 
+                            y cómo el acto de tejer juntas fortalece los lazos sociales.
+                        </p>
+                        <div class="episode-meta">
+                            <span>🎧 45 min</span>
+                            <span>•</span>
+                            <span>Diciembre 2025</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="episode-card" data-episode="2">
+                    <div class="episode-number">02</div>
+                    <div class="episode-content">
+                        <h4 class="episode-title">Lanas nativas y biodiversidad</h4>
+                        <p class="episode-description">
+                            Exploramos la relación entre las ovejas criollas, la producción artesanal 
+                            de lana y la preservación de ecosistemas locales.
+                        </p>
+                        <div class="episode-meta">
+                            <span>🎧 38 min</span>
+                            <span>•</span>
+                            <span>Noviembre 2025</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="episode-card" data-episode="1">
+                    <div class="episode-number">01</div>
+                    <div class="episode-content">
+                        <h4 class="episode-title">Introducción a Trama Sur</h4>
+                        <p class="episode-description">
+                            Presentamos el proyecto, nuestras motivaciones y la importancia de rescatar 
+                            las prácticas textiles como acto político y cultural.
+                        </p>
+                        <div class="episode-meta">
+                            <span>🎧 42 min</span>
+                            <span>•</span>
+                            <span>Octubre 2025</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider">
+        <div class="mapuche-divider"></div>
+    </div>
+
+    <!-- Creators Section -->
+    <section id="creators" class="section section-creators">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Fundadoras</h2>
+                <div class="mapuche-pattern-small"></div>
+                <p class="section-intro">
+                    Las tres voces y manos detrás de Trama Sur
+                </p>
+            </div>
+
+            <div class="creators-grid">
+                <article class="creator-card">
+                    <div class="creator-image-wrapper">
+                        <img src="marion.png" alt="Marion Lira" class="creator-image">
+                        <div class="creator-overlay"></div>
+                    </div>
+                    <div class="creator-info">
+                        <h3 class="creator-name">Marion Lira</h3>
+                        <p class="creator-role">Fundadora / Tejedora / Conductora del Podcast</p>
+                        <p class="creator-bio">
+                            Breve biografía de la primera fundadora, su relación con el textil y el proyecto. 
+                            Puedes hablar de su trayectoria, inspiraciones, visión y conexión con el sur de Chile.
+                        </p>
+                        <div class="creator-social">
+                            <a href="https://www.instagram.com/liratextil.cl/" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+                            <a href="https://liratextil.com/" target="_blank" rel="noopener" aria-label="Sitio web">🌐</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="creator-card">
+                    <div class="creator-image-wrapper">
+                        <img src="geo.png" alt="geo_witral" class="creator-image">
+                        <div class="creator-overlay"></div>
+                    </div>
+                    <div class="creator-info">
+                        <h3 class="creator-name">Georgina Elgueta Huinao</h3>
+                        <p class="creator-role">Fundadora / Tejedora / Conductora del Podcast</p>
+                        <p class="creator-bio">
+                            Descripción de la segunda fundadora, su aporte al proyecto y su conexión 
+                            con las tradiciones textiles del sur. Su rol en la producción del podcast 
+                            y su visión para el desarrollo de Trama Sur.
+                        </p>
+                        <div class="creator-social">
+                            <a href="https://www.instagram.com/geo_witral/" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+                            <a href="https://geowitral.com/" target="_blank" rel="noopener" aria-label="Sitio web">🌐</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="creator-card">
+                    <div class="creator-image-wrapper">
+                        <img src="isabella.png" alt="geo" class="creator-image">
+                        <div class="creator-overlay"></div>
+                    </div>
+                    <div class="creator-info">
+                        <h3 class="creator-name">Isabella Urra</h3>
+                        <p class="creator-role">Fundadora / Investigadora / Artesana</p>
+                        <p class="creator-bio">
+                            Historia de la tercera fundadora, su experiencia en investigación textil 
+                            y práctica artística. Su contribución a la recuperación de técnicas 
+                            tradicionales y el diálogo entre tradición y contemporaneidad.
+                        </p>
+                        <div class="creator-social">
+                            <a href="https://www.instagram.com/chimalfetextil/" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+                            <a href="https://www.chimalfe.xyz/" target="_blank" rel="noopener" aria-label="Sitio web">🌐</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Para agregar más creadoras/colaboradoras, duplica este bloque:
+                
+                <article class="creator-card">
+                    <div class="creator-image-wrapper">
+                        <img src="tu-imagen.jpg" alt="Nombre" class="creator-image">
+                        <div class="creator-overlay"></div>
+                    </div>
+                    <div class="creator-info">
+                        <h3 class="creator-name">Nombre</h3>
+                        <p class="creator-role">Rol</p>
+                        <p class="creator-bio">Biografía...</p>
+                        <div class="creator-social">
+                            <a href="#" target="_blank" rel="noopener">📷</a>
+                            <a href="#" target="_blank" rel="noopener">🌐</a>
+                        </div>
+                    </div>
+                </article>
+                
+                -->
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider">
+        <div class="mapuche-divider"></div>
+    </div>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section section-gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galería Visual</h2>
+                <div class="mapuche-pattern-small"></div>
+                <p class="section-intro">
+                    Momentos, textiles y territorios que inspiran nuestro trabajo
+                </p>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-large">
+                    <img src="data:image/svg+xml,%3Csvg width='1200' height='800' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23C84843'/%3E%3Ctext x='50%25' y='50%25' font-family='Georgia, serif' font-size='48' fill='white' text-anchor='middle' dominant-baseline='middle'%3ETejido Tradicional%3C/text%3E%3C/svg%3E" alt="Tejido tradicional">
+                    <div class="gallery-overlay">
+                        <span class="gallery-caption">Tejido tradicional del sur</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="data:image/svg+xml,%3Csvg width='600' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%234A7C8E'/%3E%3Ctext x='50%25' y='50%25' font-family='Georgia, serif' font-size='32' fill='white' text-anchor='middle' dominant-baseline='middle'%3EPaisaje%3C/text%3E%3C/svg%3E" alt="Paisaje del sur">
+                    <div class="gallery-overlay">
+                        <span class="gallery-caption">Territorio</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="data:image/svg+xml,%3Csvg width='600' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%237A8F5C'/%3E%3Ctext x='50%25' y='50%25' font-family='Georgia, serif' font-size='32' fill='white' text-anchor='middle' dominant-baseline='middle'%3EHilado%3C/text%3E%3C/svg%3E" alt="Proceso de hilado">
+                    <div class="gallery-overlay">
+                        <span class="gallery-caption">Hilando</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-wide">
+                    <img src="data:image/svg+xml,%3Csvg width='1200' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%236B4423'/%3E%3Ctext x='50%25' y='50%25' font-family='Georgia, serif' font-size='42' fill='white' text-anchor='middle' dominant-baseline='middle'%3EEncuentro Comunitario%3C/text%3E%3C/svg%3E" alt="Encuentro comunitario">
+                    <div class="gallery-overlay">
+                        <span class="gallery-caption">Encuentro textil</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="data:image/svg+xml,%3Csvg width='600' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23B85C3A'/%3E%3Ctext x='50%25' y='50%25' font-family='Georgia, serif' font-size='32' fill='white' text-anchor='middle' dominant-baseline='middle'%3EDetalle%3C/text%3E%3C/svg%3E" alt="Detalle textil">
+                    <div class="gallery-overlay">
+                        <span class="gallery-caption">Detalles</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="data:image/svg+xml,%3Csvg width='600' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23D4A574'/%3E%3Ctext x='50%25' y='50%25' font-family='Georgia, serif' font-size='28' fill='%232D1F1A' text-anchor='middle' dominant-baseline='middle'%3ELanas Nativas%3C/text%3E%3C/svg%3E" alt="Lanas naturales">
+                    <div class="gallery-overlay">
+                        <span class="gallery-caption">Lanas nativas</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="gallery-load-more">
+                <button class="btn btn-secondary" id="loadMoreGallery">Ver más fotografías</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider">
+        <div class="mapuche-divider"></div>
+    </div>
+
+    <!-- Posters/Afiches Section -->
+    <section id="posters" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Afiches y Gráfica</h2>
+                <div class="mapuche-pattern-small"></div>
+                <p class="section-intro">
+                    Diseños visuales de nuestros episodios y eventos
+                </p>
+            </div>
+
+            <div class="posters-grid">
+                <article class="poster-card">
+                    <div class="poster-image-wrapper">
+                        <img src="data:image/svg+xml,%3Csvg width='900' height='1200' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%232F5233'/%3E%3Ctext x='50%25' y='30%25' font-family='Georgia, serif' font-size='48' fill='white' text-anchor='middle' dominant-baseline='middle'%3ETRAMA SUR%3C/text%3E%3Ctext x='50%25' y='50%25' font-family='Georgia, serif' font-size='36' fill='%23D4A574' text-anchor='middle' dominant-baseline='middle'%3EEpisodio 1%3C/text%3E%3Ctext x='50%25' y='70%25' font-family='Arial' font-size='24' fill='%23B8B0A3' text-anchor='middle' dominant-baseline='middle'%3EAgrega tu afiche%3C/text%3E%3C/svg%3E" alt="Afiche Episodio 1" class="poster-image">
+                        <div class="poster-overlay">
+                            <button class="btn-view-poster">Ver completo</button>
+                        </div>
+                    </div>
+                    <div class="poster-info">
+                        <h4>Episodio 1</h4>
+                        <p>Introducción a Trama Sur</p>
+                    </div>
+                </article>
+
+                <article class="poster-card">
+                    <div class="poster-image-wrapper">
+                        <img src="data:image/svg+xml,%3Csvg width='900' height='1200' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%234A7C8E'/%3E%3Ctext x='50%25' y='30%25' font-family='Georgia, serif' font-size='48' fill='white' text-anchor='middle' dominant-baseline='middle'%3ETRAMA SUR%3C/text%3E%3Ctext x='50%25' y='50%25' font-family='Georgia, serif' font-size='36' fill='%23F5F1E8' text-anchor='middle' dominant-baseline='middle'%3EEpisodio 2%3C/text%3E%3Ctext x='50%25' y='70%25' font-family='Arial' font-size='24' fill='white' text-anchor='middle' dominant-baseline='middle'%3EAgrega tu afiche%3C/text%3E%3C/svg%3E" alt="Afiche Episodio 2" class="poster-image">
+                        <div class="poster-overlay">
+                            <button class="btn-view-poster">Ver completo</button>
+                        </div>
+                    </div>
+                    <div class="poster-info">
+                        <h4>Episodio 2</h4>
+                        <p>Lanas nativas y biodiversidad</p>
+                    </div>
+                </article>
+
+                <article class="poster-card">
+                    <div class="poster-image-wrapper">
+                        <img src="data:image/svg+xml,%3Csvg width='900' height='1200' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23C84843'/%3E%3Ctext x='50%25' y='30%25' font-family='Georgia, serif' font-size='48' fill='white' text-anchor='middle' dominant-baseline='middle'%3ETRAMA SUR%3C/text%3E%3Ctext x='50%25' y='50%25' font-family='Georgia, serif' font-size='36' fill='%23F5F1E8' text-anchor='middle' dominant-baseline='middle'%3EEpisodio 3%3C/text%3E%3Ctext x='50%25' y='70%25' font-family='Arial' font-size='24' fill='white' text-anchor='middle' dominant-baseline='middle'%3EAgrega tu afiche%3C/text%3E%3C/svg%3E" alt="Afiche Episodio 3" class="poster-image">
+                        <div class="poster-overlay">
+                            <button class="btn-view-poster">Ver completo</button>
+                        </div>
+                    </div>
+                    <div class="poster-info">
+                        <h4>Episodio 3</h4>
+                        <p>Tejer en colectivo</p>
+                    </div>
+                </article>
+
+                <article class="poster-card">
+                    <div class="poster-image-wrapper">
+                        <img src="data:image/svg+xml,%3Csvg width='900' height='1200' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%236B4423'/%3E%3Ctext x='50%25' y='30%25' font-family='Georgia, serif' font-size='48' fill='%23D4A574' text-anchor='middle' dominant-baseline='middle'%3ETRAMA SUR%3C/text%3E%3Ctext x='50%25' y='50%25' font-family='Georgia, serif' font-size='32' fill='white' text-anchor='middle' dominant-baseline='middle'%3EEncuentro Textil%3C/text%3E%3Ctext x='50%25' y='70%25' font-family='Arial' font-size='24' fill='%23B8B0A3' text-anchor='middle' dominant-baseline='middle'%3EAgrega tu afiche%3C/text%3E%3C/svg%3E" alt="Afiche Evento" class="poster-image">
+                        <div class="poster-overlay">
+                            <button class="btn-view-poster">Ver completo</button>
+                        </div>
+                    </div>
+                    <div class="poster-info">
+                        <h4>Encuentro Textil</h4>
+                        <p>Evento comunitario 2026</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider">
+        <div class="mapuche-divider"></div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trama Sur</h2>
+                <div class="mapuche-pattern-small"></div>
+            </div>
+
+            <div class="about-intro">
+                <p class="lead-text">
+                    Somos una plataforma textil y cultural que nace desde el sur de Chile. 
+                    Creemos en el tejido como práctica de resistencia, memoria y buen vivir.
+                </p>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">🧵</div>
+                    <h3>Misión</h3>
+                    <p>
+                        Visibilizar y fortalecer las prácticas textiles tradicionales del sur, 
+                        conectando saberes ancestrales con proyectos contemporáneos desde una 
+                        perspectiva territorial y comunitaria.
+                    </p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">🌿</div>
+                    <h3>Visión</h3>
+                    <p>
+                        Ser un espacio de encuentro, aprendizaje y creación que promueva el buen vivir, 
+                        la autonomía creativa y el respeto por los territorios y sus culturas textiles.
+                    </p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">🤝</div>
+                    <h3>Valores</h3>
+                    <p>
+                        Comunidad, reciprocidad, memoria, territorio, slow living, sostenibilidad 
+                        cultural y valoración del trabajo artesanal como acto político.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider">
+        <div class="mapuche-divider"></div>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proyectos</h2>
+                <div class="mapuche-pattern-small"></div>
+                <p class="section-intro">
+                    Iniciativas que tejen comunidad, memoria y territorio
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card active-project">
+                    <div class="project-header">
+                        <span class="project-status status-active">En curso</span>
+                        <div class="project-icon">🎙️</div>
+                    </div>
+                    <h3>Podcast Trama Sur</h3>
+                    <p>
+                        Nuestro proyecto principal: conversaciones profundas sobre textil, territorio y memoria. 
+                        Cada episodio es una invitación a tejer comunidad desde la escucha.
+                    </p>
+                    <a href="#podcast" class="project-link">→ Escuchar episodios</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-status status-upcoming">Próximamente</span>
+                        <div class="project-icon">🏡</div>
+                    </div>
+                    <h3>Residencias Textiles Virtuales</h3>
+                    <p>
+                        Espacios de aprendizaje, intercambio y creación colectiva. Acompañaremos procesos 
+                        creativos textiles desde una mirada territorial, lenta y comunitaria.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-status status-upcoming">Próximamente</span>
+                        <div class="project-icon">✋</div>
+                    </div>
+                    <h3>Talleres y Encuentros</h3>
+                    <p>
+                        Círculos de aprendizaje sobre técnicas tradicionales, tintes naturales, hilado y 
+                        tejido consciente. Espacios para honrar el tiempo, el proceso y el hacer con las manos.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-status status-upcoming">Próximamente</span>
+                        <div class="project-icon">📻</div>
+                    </div>
+                    <h3>Archivo Sonoro Textil</h3>
+                    <p>
+                        Un repositorio vivo de voces, historias y saberes textiles del sur. 
+                        Memoria oral que resiste al olvido.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="section section-community">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Comunidad</h2>
+                <div class="mapuche-pattern-small"></div>
+                <p class="section-intro">
+                    Trama Sur es posible gracias a una comunidad que cree en el valor del tejido, 
+                    la lentitud y el trabajo colectivo. Tu apoyo nos permite seguir tejiendo.
+                </p>
+            </div>
+
+            <!-- Support Card -->
+            <div class="support-card">
+                <div class="support-content">
+                    <h3>Apoya este proyecto</h3>
+                    <p>
+                        Con tu aporte mensual en Patreon, ayudas a sostener el podcast, desarrollar nuevos 
+                        proyectos y fortalecer esta red de conversaciones desde el sur.
+                    </p>
+                    <a href="https://www.patreon.com/c/TramaSur" target="_blank" rel="noopener" class="btn btn-light">
+                        Unirte en Patreon
+                    </a>
+                </div>
+                <div class="support-visual">
+                    <div class="mapuche-pattern-large"></div>
+                </div>
+            </div>
+
+            <!-- Social Media -->
+            <div class="social-section">
+                <h3>Síguenos en redes</h3>
+                <div class="social-grid">
+                    <a href="https://www.instagram.com/tramasurpodcast/" target="_blank" rel="noopener" class="social-card">
+                        <span class="social-icon">📷</span>
+                        <h4>Instagram</h4>
+                        <p>@tramasur</p>
+                    </a>
+
+                    <a href="https://www.tiktok.com/@trama_sur" target="_blank" rel="noopener" class="social-card">
+                        <span class="social-icon">🎵</span>
+                        <h4>TikTok</h4>
+                        <p>@tramasur</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/@CanalTramaSur" target="_blank" rel="noopener" class="social-card">
+                        <span class="social-icon">▶️</span>
+                        <h4>YouTube</h4>
+                        <p>Trama Sur</p>
+                    </a>
+
+                    <a href="https://open.spotify.com/show/tramasur" target="_blank" rel="noopener" class="social-card">
+                        <span class="social-icon">🎧</span>
+                        <h4>Spotify</h4>
+                        <p>Podcast</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Contacto</h2>
+                <div class="mapuche-pattern-small"></div>
+                <p>Para colaboraciones, propuestas o consultas, escríbenos a:</p>
+                <a href="contactotramasur@gmail.com" class="contact-email"><span class="contactotramasur@gmail.com" data-cfemail="ea8285868baa9e988b878b999f98c48986">[email&#160;protected]</span></a>
+                <p class="contact-location">
+                    🧵 Tejiendo desde el sur de Chile
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo-trama-sur.png" alt="Trama Sur" class="footer-logo-img">
+                </div>
+                <div class="footer-text">
+                    <p>Trama Sur © 2026</p>
+                    <p>Tejiendo conversaciones desde el sur y el territorio</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/tramasur" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+                    <a href="https://www.tiktok.com/@tramasur" target="_blank" rel="noopener" aria-label="TikTok">🎵</a>
+                    <a href="https://www.youtube.com/@tramasur" target="_blank" rel="noopener" aria-label="YouTube">▶️</a>
+                    <a href="https://open.spotify.com/show/tramasur" target="_blank" rel="noopener" aria-label="Spotify">🎧</a>
+                </di
