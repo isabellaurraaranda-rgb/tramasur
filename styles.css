@@ -145,7 +145,7 @@ p {
         to right,
         transparent 0%,
         var(--copihue-red) 25%,
-        var(--mapuche-blue) 50%,
+        var(--wool-cream) 50%,
         var(--copihue-red) 75%,
         transparent 100%
     );
@@ -172,7 +172,7 @@ p {
     position: absolute;
     width: 20px;
     height: 3px;
-    background: var(--mapuche-blue);
+    background: varvar(--wool-cream);
     top: 0;
 }
 
